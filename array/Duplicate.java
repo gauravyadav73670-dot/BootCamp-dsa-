@@ -16,7 +16,7 @@ public class Duplicate {
         // }
         HashSet<Integer> set = new HashSet<>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
 
             if (!set.add(arr[i])) {
                 System.out.println(arr[i]+ " ");
